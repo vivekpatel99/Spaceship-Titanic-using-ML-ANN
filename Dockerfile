@@ -3,7 +3,7 @@
 FROM tensorflow/tensorflow:latest-gpu-jupyter
 WORKDIR .
 RUN pip install --upgrade pip
-RUN pip install -U pandas autopep8 scikit-learn keras_tuner numpy opendatasets xgboost seaborn plotly lightgbm
+RUN pip install -U pandas autopep8 scikit-learn keras_tuner numpy opendatasets xgboost seaborn plotly lightgbm lazypredict
 
 EXPOSE 8888
 
